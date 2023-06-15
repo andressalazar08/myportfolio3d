@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className={`${styles.paddingX} w-full flex-items-center py-5 fidex top-0 z-20 bg-primary` }>
+    <nav className={`${styles.paddingX}  w-full flex-items-center  z-20 bg-primary` }>
         <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
             <Link
             to="/"
@@ -60,8 +60,12 @@ const Navbar = () => {
                                         <li key={link.id}
                                             className={`${
                                               active === link.title ? " text-white": " text-secondary"
-                                            } hover:text-white text-[21px] font-medium cursor-pointer`}
-                                            onClick={()=> setActive(link.title)}
+                                            } font-poppins font-medium cursos-pointer text-[16px]`}
+                                            onClick={()=> {
+                                              setToggle(!toggle);
+                                              setActive(link.title);
+
+                                              }}
                                         >
 
                                           <a href={`#${link.id}`}>{link.title}</a>
