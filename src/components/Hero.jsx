@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
       </div>
 
-            <Computers />
+            {/* <Computers /> */}
 
     </section>
   )
