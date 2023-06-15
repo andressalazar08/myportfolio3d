@@ -22,7 +22,7 @@ const Hero = () => {
                 Hi, I'm <span className="text-[#49ade3]"> Felipe Salazar Ramos</span>
               </h1>
               <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              I'm a Fullstack web developer with experience on the whole lifecycle software development
+              I'm a Fullstack web developer with experience in the whole software development lifecycle
               </p>
             </div>
       </div>
