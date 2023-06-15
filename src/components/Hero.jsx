@@ -6,9 +6,10 @@ import  Computers  from './canvas/Computers'
 //``
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <>
+
       <div className={`${styles.paddingX}
-      absolute inset-0
+
       top-[1px]
       max-w-7xl mx-auto flex
       flex-row items-start gap-5
@@ -25,10 +26,6 @@ const Hero = () => {
               I'm a Fullstack web developer with experience in the whole software development lifecycle
               </p>
             </div>
-      </div>
-
-            {/* <Computers /> */}
-
 
             <div className="absolute mt-[200px] w-full flex justify-center items-center">
                 <a href="#about">
@@ -52,8 +49,13 @@ const Hero = () => {
                   </div>
                 </a>
             </div>
+      </div>
 
-    </section>
+            {/* <Computers /> */}
+
+
+
+            </>
   )
 }
 

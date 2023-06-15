@@ -6,8 +6,8 @@ import  { styles }  from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-
-
+import { SectionWrapper } from '../hoc';
+//``
 const ServiceCard = ({ index, title, icon }) =>{
   return (
 
@@ -42,10 +42,8 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>
-            Introduction
-          </p>
-          <h2 className={styles.sectionHeadText}>
+
+          <h2 className={`${styles.sectionHeadText} mt-[110px]`}>
           Overview
           </h2>
       </motion.div>
@@ -80,4 +78,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About,"about");
