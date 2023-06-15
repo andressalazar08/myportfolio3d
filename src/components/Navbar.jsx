@@ -10,6 +10,7 @@ import aflogo from '../assets/andres-felipe-high-resolution-logo-white-on-transp
 const Navbar = () => {
 
   const [active, setActive] = useState("");
+  const [toggle, setToggle ] = useState(false);
 
 
   return (
@@ -27,13 +28,14 @@ const Navbar = () => {
 
                 {/* <p className="text-white text-[18px] font-bold cursor-pointer"> Andrés Felipe <span className="sm:block hidden">| Engineer</span> </p> */}
             </Link>
-            <p className="text-blue-500"> Bringing solutions through code</p>
-            <ul className="list-non hidden sm:flex flex-row gap-10">
+            {/* <p className="text-blue-500"> Bringing solutions through code</p> */}
+            <ul className="list-none hidden sm:flex flex-row gap-10">
               {navLinks.map((link)=>(
                 <li key={link.id}
                     className={`${
-                      active === link.title ? "text-white": "text-secondary"
-                    } hover: text-white text-[18px] font-medium cursor-pointer`}
+                      active === link.title ? " text-white": " text-secondary"
+                    } hover:text-white text-[21px] font-medium cursor-pointer`}
+                    onClick={()=> setActive(link.title)}
                 >
 
                   <a href={`#${link.id}`}>{link.title}</a>
@@ -41,6 +43,35 @@ const Navbar = () => {
               ))}
 
             </ul>
+
+            <div className="sm:hidden flex flex-1 justify-end items-center">
+                      <img
+                        src={toggle? close: menu}
+                        alt="menu"
+                        className="w-[28px] h-[28px] object-contain cursor-pointer"
+                        onClick={()=>setToggle(!toggle)}
+                      />
+
+                      <div className={`${!toggle? 'hidden':'flex'}   p-4
+                          black-gradient absolute top-40 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl
+                      `}>
+                                   <ul className="list-none flex justify-end items-start flex-col gap-4">
+                                      {navLinks.map((link)=>(
+                                        <li key={link.id}
+                                            className={`${
+                                              active === link.title ? " text-white": " text-secondary"
+                                            } hover:text-white text-[21px] font-medium cursor-pointer`}
+                                            onClick={()=> setActive(link.title)}
+                                        >
+
+                                          <a href={`#${link.id}`}>{link.title}</a>
+                                        </li>
+                                      ))}
+
+                                  </ul>
+                      </div>
+
+            </div>
         </div>
     </nav>
   )
