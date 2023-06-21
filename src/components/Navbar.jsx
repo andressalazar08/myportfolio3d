@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import { SectionWrapper } from '../hoc';
 import { styles } from '../styles'; //this is styles in the repo
 import { navLinks } from '../constants';
 import { logo, menu, close, web } from '../assets';
@@ -81,4 +81,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default SectionWrapper(Navbar,"");

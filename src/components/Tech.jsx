@@ -13,12 +13,12 @@ const Tech = () => {
           key={techonology.name}
         >
 
-          <Ball icon={techonology.icon}></Ball>
-
+          {/* <Ball icon={techonology.icon}></Ball> */}
+          <p>here goes tech icons</p>
         </div>
       ))}
     </div>
   )
 }
 
-export default Tech
+export default SectionWrapper(Tech,"");
