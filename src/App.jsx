@@ -21,7 +21,7 @@ const App=() =>{
           <Experience />
           <Tech />
           <Works />
-          <Feedbacks />
+          {/* <Feedbacks />  this is for testimonials*/}
 
           <div className="relative z-0">
               <Contact />
