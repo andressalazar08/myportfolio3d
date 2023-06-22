@@ -159,7 +159,7 @@ import {
     },
     {
       title: "Fullstack Web Developer",
-      company_name: "Club Agronomía Central",
+      company_name: "Club Agronomía Central - Argentina",
       icon: agronomia,
       iconBg: "#E6DEDD",
       date: "Apr 2023 - Present",

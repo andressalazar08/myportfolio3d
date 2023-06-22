@@ -29,6 +29,7 @@ const App=() =>{
           </div>
           {/* <Tech /> */}
 
+      <div className="text-center pb-[50px] text-[cyan] text-3xl">hi@andresfelipe.dev</div>
       <div className="text-center pb-[50px]">Felipe Salazar 2023 &copy; <em id="date"></em></div>
 
       </div>

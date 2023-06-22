@@ -57,7 +57,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Bsc in Industrial Engineer, Msc in Engineer and  Systems Engineering student.<br />
-        I had participated in different web app projects, with different roles:
+        I have participated in different web app projects, with different roles:
         <br /><div className="text-[cyan] flex flex-row justify-between">Fullstack developer, Product Owner and Project Manager.</div>
 
         <br />
@@ -68,7 +68,7 @@ const About = () => {
         Contact me if you need a solution based on web technologies.
         <br />
         <br />
-        <div className="text-[cyan] text-xl">hi@andresfelipe.dev</div>
+        <div className="text-[cyan] text-2xl">hi@andresfelipe.dev</div>
       </motion.p>
     </div>
       <motion.div variants={textVariant()}>
