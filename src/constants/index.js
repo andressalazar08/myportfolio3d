@@ -154,7 +154,7 @@ import {
         "Developing decision models with Python to implement into a web app based on Django framework",
         "Collaborating with team leaders and other developers to define and interpretate different requirements",
         "Activities backlog priorization according to sprint goals",
-        "QA functional on different features realted with the web app",
+        "QA functional on different features related with the web app",
       ],
     },
     {
@@ -180,7 +180,7 @@ import {
         "University teacher on subjects related with engineering for under and postgraduated students",
         "Great skills with decision making on Supply Chain Courses",
         "I teach Optimization, simulation for different problems in the industry",
-        "Main skills related with communication and leadirship",
+        "Main skills related with communication and leadership",
       ],
     }
   ];
