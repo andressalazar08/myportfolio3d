@@ -56,7 +56,7 @@ const About = () => {
         variants={fadeIn("","", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Bsc in Industrial Engineer, Msc in Engineer and  Systems Engineering student.<br />
+        Industrial Engineer BSc., Msc. in Engineering and Systems Engineering student.<br />
         I have participated in different web app projects, with different roles:
         <br /><div className="text-[cyan] flex flex-row justify-between">Fullstack developer, Product Owner and Project Manager.</div>
 
