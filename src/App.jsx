@@ -24,13 +24,14 @@ const App=() =>{
           {/* <Feedbacks />  this is for testimonials*/}
 
           <div className="relative z-0">
-              <Contact />
+              {/* <Contact /> */}
               {/* <Stars /> */}
           </div>
-          <Tech />
+          {/* <Tech /> */}
+
+      <div className="text-center pb-[50px]">Felipe Salazar 2023 &copy; <em id="date"></em></div>
 
       </div>
-
 
  </BrowserRouter>
   )

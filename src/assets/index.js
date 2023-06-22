@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import optima from "./company/optima.png";
+import univalle from "./company/univalle.png";
+import agronomia from "./company/agronomia.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,6 +58,9 @@ export {
   meta,
   shopify,
   starbucks,
+  optima,
+  univalle,
+  agronomia,
   tesla,
   carrent,
   jobit,
