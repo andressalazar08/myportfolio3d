@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className={`${styles.paddingX}  w-full flex-items-center  z-20 bg-primary` }>
+    <nav className={` w-full flex-items-center  z-20 bg-primary`}>
         <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
             <Link
             to="/"
@@ -24,7 +24,7 @@ const Navbar = () => {
               window.scrollTo(0,0);
             }}
             >
-              <img src={aflogo} alt="logo"  style={{ width: 150, height: 250 }} className="w-1 h-1 object-contain"/>
+              <img src={aflogo} alt="logo"  style={{ width: 150, height: 250, marginLeft: 40 }} className="w-1 h-1 object-contain"/>
 
                 {/* <p className="text-white text-[18px] font-bold cursor-pointer"> Andrés Felipe <span className="sm:block hidden">| Engineer</span> </p> */}
             </Link>
@@ -37,8 +37,8 @@ const Navbar = () => {
                     } hover:text-white text-[21px] font-medium cursor-pointer`}
                     onClick={()=> setActive(link.title)}
                 >
-
-                  <a href={`#${link.id}`}>{link.title}</a>
+      {/* //style={{ marginRight: 110 }}  */}
+                  <a href={`#${link.id}`} className="l:mr-[50px] xl:mr-[50px] m:mr-[40px] sm:mr-[40px]">{link.title}</a>
                 </li>
               ))}
 
@@ -81,4 +81,4 @@ const Navbar = () => {
   )
 }
 
-export default SectionWrapper(Navbar,"");
+export default Navbar;
