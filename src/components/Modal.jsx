@@ -5,7 +5,7 @@ import Carousel from "./Carousel";
 import { mobile, backend } from '../assets';
 import { SectionWrapper } from '../hoc';
 import fullstack from '../assets/fullstack.png';
-import efset from '../assets/efset.png';
+import efset from '../assets/efset1.png';
 import salesforce from '../assets/salesforcebase.png';
 import trailhead from '../assets/trailhead.png';
 import agile from '../assets/agile.png';
