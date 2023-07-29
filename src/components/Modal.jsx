@@ -4,7 +4,12 @@ import web from '../assets/web.png'
 import Carousel from "./Carousel";
 import { mobile, backend } from '../assets';
 import { SectionWrapper } from '../hoc';
-
+import fullstack from '../assets/fullstack.png';
+import efset from '../assets/efset.png';
+import salesforce from '../assets/salesforcebase.png';
+import trailhead from '../assets/trailhead.png';
+import agile from '../assets/agile.png';
+import javascript from '../assets/javascript.png';
 
 const Modal = () => {
 
@@ -14,10 +19,12 @@ const Modal = () => {
         // mobile,
         // web,
         // backend
-        "https://i.ibb.co/ncrXc2V/1.png",
-        "https://i.ibb.co/B3s7v4h/2.png",
-        "https://i.ibb.co/XXR8kzF/3.png",
-        "https://i.ibb.co/yg7BSdM/4.png"
+        fullstack,
+        efset,
+        salesforce,
+        trailhead,
+        agile,
+        javascript
 
     ]
 
@@ -26,13 +33,13 @@ const Modal = () => {
 
     return (
 
-           <main className='App'>
+           <main className='w-[370px] h-[auto] p-5'>
 
-            <div className='mx-auto'>
+            <div >
 
-                <Carousel autoSlide={true} >
+                <Carousel autoSlide={true}  >
                     {slides.map((s)=>(
-                        <img src={s} />
+                        <img   src={s}/>
                     ))}
 
 
@@ -50,4 +57,4 @@ const Modal = () => {
 }
 
 
-export default SectionWrapper(Modal,"");
+export default Modal;

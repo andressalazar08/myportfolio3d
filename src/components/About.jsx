@@ -9,14 +9,15 @@ import { github } from "../assets";
 
 import { SectionWrapper } from '../hoc';
 import { Link } from 'react-router-dom';
+import Modal from './Modal';
 //``
 const ServiceCard = ({ index, title, icon }) =>{
   return (
 
-      <Tilt className="xs:w-[250px] w-full">
+
           <motion.div
             variants={fadeIn("right", "spring", 0.5*index, 0.75 )}
-            className="w-full p-[1px] rounded-[20px] shadow-card"
+            className="w-full rounded-[20px] "
 
           >
 
@@ -27,15 +28,16 @@ const ServiceCard = ({ index, title, icon }) =>{
                   speed: 450
                 }}
                 style={{background: "linear-gradient(#20e8e8, #207ee8)" }}
-                className="rounded-[20px] l:py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+                className="rounded-[20px] min-h-[180px] flex justify-evenly items-center flex-col"
               >
+                <h3 className="text-white text-[20px] font-bold text-center mt-5">{title}</h3>
+                 <Modal />
+                {/* <img src={icon} alt={title} className="w-16 h-16 object-contain"/> */}
 
-                <img src={icon} alt={title} className="w-16 h-16 object-contain"/>
-                <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
               </div>
           </motion.div>
 
-      </Tilt>
+
   )
 }
 
@@ -72,12 +74,12 @@ const About = () => {
       </motion.p>
     </div>
       <motion.div variants={textVariant()}>
-        <div className="mt-[170px] ml-[150px]">
-            <Link
+        <div className="mt-[120px] l:ml-[100px] xl:ml-[100px] xs:ml-[10px]">
+            {/* <Link
               onClick={()=>{}}
-            >
+            > */}
               <ServiceCard  key="certs" index="1" title="Certitications and Badges" icon={github}/>
-            </Link>
+            {/* </Link> */}
         </div>
       </motion.div>
 

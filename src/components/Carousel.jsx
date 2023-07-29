@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
 
-const Carousel = ({children:slides, autoSlide=false, autoSlideInterval=3000}) =>{
+const Carousel = ({children:slides, autoSlide=false, autoSlideInterval=4000}) =>{
 
     const [curr, setCurr] = useState(0);
 
@@ -19,17 +19,18 @@ const Carousel = ({children:slides, autoSlide=false, autoSlideInterval=3000}) =>
     return (
 
             <div className="overflow-hidden relative">
-                <div className="flex transition-transform ease-out duration-500"
+
+                <div className="flex transition-transform ease-out duration-500 rounded-[25px]"
                 style={{transform:`translateX(-${curr*100}%)` }}
                 >{slides}</div>
                 <div className="absolute inset-0 flex items-center justify-between p-4">
                     <button onClick={prev} className="p-1 rounded-full shadow bg-white text-gray-800 hover:bg-white">
-                        <ChevronLeft size={30}/>
+                        <ChevronLeft size={18}/>
 
                     </button>
 
                     <button  onClick={next} className="p-1 rounded-full shadow bg-white text-gray-800 hover:bg-white">
-                        <ChevronRight size={30} />
+                        <ChevronRight size={18} />
 
                     </button>
 
@@ -40,7 +41,7 @@ const Carousel = ({children:slides, autoSlide=false, autoSlideInterval=3000}) =>
 
                     <div className="flex items-center justify-center gap-2">
                             {slides.map((_,i)=>(
-                                <div className={`transition-all w-3 h-3 bg-white rounded-full
+                                <div className={`transition-all w-2 h-2 bg-white rounded-full
                                     ${curr===i? "p-2": "bg-opacity-50"}
 
                                 `}/>
