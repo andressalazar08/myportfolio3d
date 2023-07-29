@@ -1,6 +1,8 @@
 import { BrowserRouter } from 'react-router-dom';
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from './components';
+import Modal from './components/modal';
 import Stars from './components/canvas/Stars';
+import aflogo from './assets/andres-felipe-high-resolution-logo-white-on-transparent-background (1).png'
 //StartsCanvas
 
 
@@ -18,6 +20,10 @@ const App=() =>{
           </div>
 
           <About />
+
+          <Modal />
+
+
           <Experience />
 
           {/* <Works /> */}
