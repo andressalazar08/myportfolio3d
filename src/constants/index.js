@@ -119,32 +119,6 @@ import {
 
   const experiences = [
     {
-      title: "Vba & R Developer",
-      company_name: "Óptima Consultores en Ingeniería Industrial",
-      icon: optima,
-      iconBg: "#383E56",
-      date: "Sept 2015 - Dec 2020",
-      points: [
-        "Developing and maintaining desktop applications using VBA, SQL and PowerQuery.",
-        "Collaborating with clients and other developers to create high-quality products.",
-        "Implementing different solutions for Supply Chain decision making with different clients",
-        "Leading training with final users and people related",
-      ],
-    },
-    {
-      title: "Project Manager",
-      company_name: "Óptima Consultores en Ingeniería Industrial",
-      icon: optima,
-      iconBg: "#E6DEDD",
-      date: "Jan 2016 - Dec 2020",
-      points: [
-        "Leading developer teams to acomplish goals and objectives realted with consulting projects",
-        "Activities priorization according to the devlivery dates",
-        "Budget management on different projects",
-        "Participating in code reviews and providing constructive feedback to other developers and the client",
-      ],
-    },
-    {
       title: "Python Developer & Product Owner",
       company_name: "Universidad del Valle - Mincienciaton Project",
       icon: univalle,
@@ -170,6 +144,35 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers",
       ],
     },
+
+    {
+      title: "Vba & R Developer",
+      company_name: "Óptima Consultores en Ingeniería Industrial",
+      icon: optima,
+      iconBg: "#383E56",
+      date: "Sept 2015 - Dec 2020",
+      points: [
+        "Developing and maintaining desktop applications using VBA, SQL and PowerQuery.",
+        "Collaborating with clients and other developers to create high-quality products.",
+        "Implementing different solutions for Supply Chain decision making with different clients",
+        "Leading training with final users and people related",
+      ],
+    },
+    {
+      title: "Project Manager",
+      company_name: "Óptima Consultores en Ingeniería Industrial",
+      icon: optima,
+      iconBg: "#E6DEDD",
+      date: "Jan 2016 - Dec 2020",
+      points: [
+        "Leading developer teams to acomplish goals and objectives realted with consulting projects",
+        "Activities priorization according to the devlivery dates",
+        "Budget management on different projects",
+        "Participating in code reviews and providing constructive feedback to other developers and the client",
+      ],
+    },
+
+
     {
       title: "Teacher",
       company_name: "Universidad del Valle",
