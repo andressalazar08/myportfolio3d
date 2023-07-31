@@ -29,7 +29,7 @@ import {
 
   } from "../assets";
 
-import agro from '../assets/agro.png';
+import agrobase from '../assets/agrobase.png';
 import sigelo from '../assets/sigelo.png';
 import forecastcesa from '../assets/forecastcesa.png';
 
@@ -243,7 +243,7 @@ import forecastcesa from '../assets/forecastcesa.png';
           color: "text-fuchsia-600",
         },
       ],
-      image: agro,
+      image: agrobase,
       source_code_link: "https://github.com/Brycot/Club-Agronomia-Central",
     },
     {
