@@ -25,8 +25,13 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    threejs
+
   } from "../assets";
+
+import agro from '../assets/agro.png';
+import sigelo from '../assets/sigelo.png';
+import forecastcesa from '../assets/forecastcesa.png';
 
   export const navLinks = [
     {
@@ -217,67 +222,79 @@ import {
 
   const projects = [
     {
-      name: "Car Rent",
+      name: "Club Agronomía Central",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web based platform that allows the central agronomy sports club in Argentina to manage all its processes. This platform has an administration panel to manage the affiliates, their students and sports events that it offers.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Nextjs",
+          color: "text-white-600",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "Reactjs",
+          color: "text-blue-600",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "Mongodb",
+          color: "text-green-600",
+        },
+        {
+          name: "Tailwind",
+          color: "text-fuchsia-600",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: agro,
+      source_code_link: "https://github.com/Brycot/Club-Agronomia-Central",
     },
     {
-      name: "Job IT",
+      name: "Inventory Management App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application for inventory management in a food bank. This application allows to manage the donations that arrive at a food bank and plan the collection, storage and final transport to beneficiaries with a user friendly admin panel.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Python",
+          color: "text-green-600",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "Django",
+          color: "text-white-600",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "Bootstrap",
+          color: "text-blue-600",
+        },
+        {
+          name: "RestApi",
+          color: "text-yellow-600",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: sigelo,
+      source_code_link: "https://github.com/andressalazar08/proyecto-donaciones",
     },
     {
-      name: "Trip Guide",
+      name: "Sales Forecasting App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web platform to generate a sales forecast in a food packaging production company in Colombia. This platform allows consolidating forecast sales information in all business lines. In addition, statistical models programmed in R were integrated.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Angular",
+          color: "text-red-600",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "Node",
+          color: "text-green-600",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "SQL server",
+          color: "text-white-600",
+        },
+        {
+          name: "R programming language",
+          color: "text-blue-600",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: forecastcesa,
+      source_code_link: "https://github.com/andressalazar08/salesforecast",
     },
   ];
 

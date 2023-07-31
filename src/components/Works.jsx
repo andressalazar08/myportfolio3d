@@ -5,6 +5,7 @@ import { github } from "../assets";
 import { SectionWrapper } from '../hoc';
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import live2 from '../assets/live.png';
 
 //``
 
@@ -57,7 +58,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
                           >
                             <img
-                              src={github}
+                              src={live2}
                               alt="github"
                               className="w-1/2 h-1/ object-contain"
                             />
@@ -73,7 +74,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               {/* description of the project */}
 
               <div className="mt-5 ">
-                <h4 className="text-white font-bold text-[24px]">{name}</h4>
+                <h4 className="text-white font-bold text-[20px]">{name}</h4>
                 <p className="mt-2 text-secondary text-[16px]">{description}</p>
               </div>
 
@@ -82,7 +83,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                   {tags.map((tag)=>(
                       <p
                         key={tag.name}
-                        className={`text-[14px] ${tag.color}`}
+                        className={`text-[17px] ${tag.color}`}
                       >
                       # {tag.name}
 
@@ -103,9 +104,7 @@ const Works = () => {
     <>
         <motion.div
             variants={textVariant()}>
-                <h2 className={`${styles.sectionSubText} `}>
-                    My work
-                </h2>
+
 
                 <p className={`${styles.sectionHeadText}`}>
                     Projects
