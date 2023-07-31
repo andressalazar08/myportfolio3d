@@ -124,19 +124,6 @@ import forecastcesa from '../assets/forecastcesa.png';
 
   const experiences = [
     {
-      title: "Python Developer & Product Owner",
-      company_name: "Universidad del Valle - Mincienciaton Project",
-      icon: univalle,
-      iconBg: "#383E56",
-      date: "May 2020 - Dec 2020",
-      points: [
-        "Developing decision models with Python to implement into a web app based on Django framework",
-        "Collaborating with team leaders and other developers to define and interpretate different requirements",
-        "Activities backlog priorization according to sprint goals",
-        "QA functional on different features related with the web app",
-      ],
-    },
-    {
       title: "Fullstack Web Developer",
       company_name: "Club Agronomía Central - Argentina",
       icon: agronomia,
@@ -149,6 +136,21 @@ import forecastcesa from '../assets/forecastcesa.png';
         "Participating in code reviews and providing constructive feedback to other developers",
       ],
     },
+
+    {
+      title: "Python Developer & Product Owner",
+      company_name: "Universidad del Valle - Mincienciaton Project",
+      icon: univalle,
+      iconBg: "#383E56",
+      date: "May 2020 - Dec 2020",
+      points: [
+        "Developing decision models with Python to implement into a web app based on Django framework",
+        "Collaborating with team leaders and other developers to define and interpretate different requirements",
+        "Activities backlog priorization according to sprint goals",
+        "QA functional on different features related with the web app",
+      ],
+    },
+
 
     {
       title: "Vba & R Developer",
