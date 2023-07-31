@@ -30,7 +30,7 @@ import {
   } from "../assets";
 
 import agrobase from '../assets/agrobase.png';
-import sigelo from '../assets/sigelo.png';
+import sigelobase from '../assets/sigelobase.png';
 import forecastcesa from '../assets/forecastcesa.png';
 
   export const navLinks = [
@@ -268,7 +268,7 @@ import forecastcesa from '../assets/forecastcesa.png';
           color: "text-yellow-600",
         },
       ],
-      image: sigelo,
+      image: sigelobase,
       source_code_link: "https://github.com/andressalazar08/proyecto-donaciones",
     },
     {
