@@ -296,7 +296,7 @@ import forecastcesa from '../assets/forecastcesa.png';
         },
       ],
       image: forecastcesa,
-      source_code_link: "https://github.com/andressalazar08/salesforecast",
+      source_code_link: "https://github.com/",
     },
   ];
 
