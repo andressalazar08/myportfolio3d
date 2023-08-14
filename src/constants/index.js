@@ -128,7 +128,7 @@ import forecastcesa from '../assets/forecastcesa.png';
       company_name: "Club Agronomía Central - Argentina",
       icon: agronomia,
       iconBg: "#E6DEDD",
-      date: "Apr 2023 - Present",
+      date: "Apr 2023 - Jul 2023",
       points: [
         "Developing and maintaining a web app using Next.js (React), Tailwind,Express, MongoDb and Node.Js",
         "Collaborating with other developers to create a web app for a sport club in Argentina",
@@ -185,7 +185,7 @@ import forecastcesa from '../assets/forecastcesa.png';
       company_name: "Universidad del Valle",
       icon: univalle,
       iconBg: "#E6DEDD",
-      date: "Feb 2013 - Present",
+      date: "Feb 2013 - Dic 2022",
       points: [
         "University teacher on subjects related with engineering for under and postgraduated students",
         "Great skills with decision making on Supply Chain Courses",
