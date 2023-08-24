@@ -226,7 +226,7 @@ import forecastcesa from '../assets/forecastcesa.png';
     {
       name: "Club Agronomía Central",
       description:
-        "Web based platform that allows the central agronomy sports club in Argentina to manage all its processes. This platform has an administration panel to manage the affiliates, their students and sports events that it offers.",
+        "Web based platform that allows the sports club in Argentina to manage all its processes. This platform has an administration panel to manage the affiliates, their students and sports events that it offers.",
       tags: [
         {
           name: "Nextjs",
