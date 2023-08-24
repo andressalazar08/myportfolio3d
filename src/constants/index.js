@@ -251,7 +251,7 @@ import forecastcesa from '../assets/forecastcesa.png';
     {
       name: "Inventory Management App",
       description:
-        "Web application for inventory management in a food bank. This application allows to manage the donations that arrive at a food bank and plan the collection, storage and final transport to beneficiaries with a user friendly admin panel.",
+        "Web application for inventory management in a food bank. I participated in this project developing optimization models based on Python that were integrated into the backend of the application. ",
       tags: [
         {
           name: "Python",
@@ -264,11 +264,8 @@ import forecastcesa from '../assets/forecastcesa.png';
         {
           name: "Bootstrap",
           color: "text-blue-600",
-        },
-        {
-          name: "RestApi",
-          color: "text-yellow-600",
-        },
+        }
+
       ],
       image: sigelobase,
       source_code_link: "https://github.com/andressalazar08/proyecto-donaciones",
@@ -276,20 +273,17 @@ import forecastcesa from '../assets/forecastcesa.png';
     {
       name: "Sales Forecasting App",
       description:
-        "Web platform to generate a sales forecast in a food packaging production company in Colombia. This platform allows consolidating forecast sales information in all business lines. In addition, statistical models programmed in R were integrated.",
+        "Web platform to generate a sales forecast in a food packaging production company in Colombia. My main role here was as a Project Manager, I was in charge on the project budget and activities priorization",
       tags: [
         {
-          name: "Angular",
+          name: "Project Manager",
           color: "text-red-600",
         },
         {
-          name: "Node",
+          name: "Functional Testing",
           color: "text-green-600",
         },
-        {
-          name: "SQL server",
-          color: "text-white-600",
-        },
+
         {
           name: "R programming language",
           color: "text-blue-600",
