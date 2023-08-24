@@ -264,6 +264,10 @@ import forecastcesa from '../assets/forecastcesa.png';
         {
           name: "Bootstrap",
           color: "text-blue-600",
+        },
+        {
+          name: "Optimization",
+          color: "text-red-600",
         }
 
       ],
@@ -282,12 +286,8 @@ import forecastcesa from '../assets/forecastcesa.png';
         {
           name: "Functional Testing",
           color: "text-green-600",
-        },
+        }
 
-        {
-          name: "R programming language",
-          color: "text-blue-600",
-        },
       ],
       image: forecastcesa,
       source_code_link: "https://github.com/",
