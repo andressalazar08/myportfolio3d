@@ -21,12 +21,11 @@ const Modal = () => {
         // web,
         // backend
         associate,
-        fullstack,
         efset,
         salesforce,
         trailhead,
         agile,
-        javascript
+        fullstack,
 
     ]
 
