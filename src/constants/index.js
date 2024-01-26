@@ -36,15 +36,15 @@ import forecastcesa from '../assets/forecastcesa.png';
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "",
     },
     {
       id: "work",
-      title: "Work",
+      title: "",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "",
     },
   ];
 
