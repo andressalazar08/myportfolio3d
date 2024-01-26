@@ -25,7 +25,8 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs
+    threejs,
+    clicked
 
   } from "../assets";
 
@@ -123,6 +124,19 @@ import forecastcesa from '../assets/forecastcesa.png';
   ];
 
   const experiences = [
+    {
+      title: "Clicked Learning Community Member",
+      company_name: "Clicked",
+      icon: clicked,
+      iconBg: "#E6DEDD",
+      date: "Jan 2024 - Feb 2024",
+      points: [
+        "I am actively participating in the Salesforce Administrator Quest",
+        "Requirement gathering and interpretation from Cricket Wireless business case",
+        "Implementing solutions in a salesforce dev org ",
+        "Participating in tasks reviews and getting feedback from clicked experts",
+      ],
+    },
     {
       title: "Fullstack Web Developer",
       company_name: "Club Agronomía Central - Argentina",

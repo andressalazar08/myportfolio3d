@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 import optima from "./company/optima.png";
 import univalle from "./company/univalle.png";
 import agronomia from "./company/agronomia.png";
+import clicked from "./clicked.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -65,4 +66,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  clicked
 };
