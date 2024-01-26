@@ -24,7 +24,7 @@ const Hero = () => {
                   Hi, I'm <span className="text-[cyan]"> Felipe Salazar Ramos</span>
                 </h1>
                 <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                Fullstack web developer<br /> with experience in the whole software development lifecycle
+                Business Analyst, Project Manager and Developer<br /> with experience in the whole software development lifecycle
                 </p>
           </div>
 

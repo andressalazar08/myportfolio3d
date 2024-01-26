@@ -60,10 +60,10 @@ const About = () => {
       >
         Industrial Engineer BSc., Msc. in Engineering and Systems Engineering student.<br />
         I have participated in different web app projects, with different roles:
-        <br /><div className="text-[cyan] flex flex-row justify-between">Fullstack developer, Product Owner and Project Manager.</div>
+        <br /><div className="text-[cyan] flex flex-row justify-between"> Business Analyst, Project Manager and Fullstack developer</div>
 
         <br />
-        <span className="text-[cyan] ">Trailblazer</span> ranked in the salesforce ecosystem as <span className="text-[cyan] ">Adventurer</span>.
+        <span className="text-[cyan] ">Trailblazer</span> ranked in the salesforce ecosystem as <span className="text-[cyan] ">Expeditioner</span>.
         <br />I'm a quick learner and have strong skills on leadership and communication.
         <br />
         <br />

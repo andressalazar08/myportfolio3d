@@ -4,6 +4,7 @@ import web from '../assets/web.png'
 import Carousel from "./Carousel";
 import { mobile, backend } from '../assets';
 import { SectionWrapper } from '../hoc';
+import associate from '../assets/associate.png';
 import fullstack from '../assets/fullstack.png';
 import efset from '../assets/efset1.png';
 import salesforce from '../assets/salesforcebase.png';
@@ -19,6 +20,7 @@ const Modal = () => {
         // mobile,
         // web,
         // backend
+        associate,
         fullstack,
         efset,
         salesforce,

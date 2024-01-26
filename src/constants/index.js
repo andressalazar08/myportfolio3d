@@ -138,7 +138,7 @@ import forecastcesa from '../assets/forecastcesa.png';
     },
 
     {
-      title: "Python Developer & Product Owner",
+      title: "Business Analyst & Researcher",
       company_name: "Universidad del Valle - Mincienciaton Project",
       icon: univalle,
       iconBg: "#383E56",
@@ -153,7 +153,7 @@ import forecastcesa from '../assets/forecastcesa.png';
 
 
     {
-      title: "Vba & R Developer",
+      title: "Developer",
       company_name: "Óptima Consultores en Ingeniería Industrial",
       icon: optima,
       iconBg: "#383E56",
@@ -166,16 +166,16 @@ import forecastcesa from '../assets/forecastcesa.png';
       ],
     },
     {
-      title: "Project Manager",
+      title: "Business Analyst and consultant",
       company_name: "Óptima Consultores en Ingeniería Industrial",
       icon: optima,
       iconBg: "#E6DEDD",
       date: "Jan 2016 - Dec 2020",
       points: [
         "Leading developer teams to acomplish goals and objectives realted with consulting projects",
-        "Activities priorization according to the devlivery dates",
-        "Budget management on different projects",
+        "Requirement gathering, UX, UI, Mockups design",
         "Participating in code reviews and providing constructive feedback to other developers and the client",
+        "Functional testing - Delivery and final implementation with clients" 
       ],
     },
 
@@ -229,6 +229,10 @@ import forecastcesa from '../assets/forecastcesa.png';
         "Web based platform that allows the sports club in Argentina to manage all its processes. This platform has an administration panel to manage the affiliates, their students and sports events that it offers.",
       tags: [
         {
+          name: "Business Analyst",
+          color: "text-green-600",
+        },
+        {
           name: "Nextjs",
           color: "text-white-600",
         },
@@ -236,10 +240,7 @@ import forecastcesa from '../assets/forecastcesa.png';
           name: "Reactjs",
           color: "text-blue-600",
         },
-        {
-          name: "Mongodb",
-          color: "text-green-600",
-        },
+       
         {
           name: "Tailwind",
           color: "text-fuchsia-600",
@@ -254,19 +255,15 @@ import forecastcesa from '../assets/forecastcesa.png';
         "Web application for inventory management in a food bank. I participated in this project developing optimization models based on Python that were integrated into the backend of the application. ",
       tags: [
         {
-          name: "Python",
+          name: "Business Analyst",
           color: "text-green-600",
         },
         {
-          name: "Django",
-          color: "text-white-600",
-        },
-        {
-          name: "Bootstrap",
+          name: "User stories",
           color: "text-blue-600",
         },
         {
-          name: "Optimization",
+          name: "Requirement gathering",
           color: "text-red-600",
         }
 
@@ -284,7 +281,7 @@ import forecastcesa from '../assets/forecastcesa.png';
           color: "text-red-600",
         },
         {
-          name: "Functional Testing",
+          name: "Business Analyst",
           color: "text-green-600",
         }
 
