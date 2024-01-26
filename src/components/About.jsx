@@ -16,7 +16,7 @@ const ServiceCard = ({ index, title, icon }) =>{
 
 
           <motion.div
-            variants={fadeIn("right", "spring", 0.5*index, 0.75 )}
+            variants={fadeIn("right", "spring", 0.5*index, 1.75 )}
             className="w-full rounded-[20px] "
 
           >
@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon }) =>{
               <div
                 options= {{
                   max:45,
-                  scale: 1,
+                  scale:1,
                   speed: 450
                 }}
                 style={{background: "linear-gradient(#20e8e8, #207ee8)" }}
